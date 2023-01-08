@@ -1,0 +1,70 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 80px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #c2c2c2;
+  z-index: 200;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo img {
+  width: 150px;
+}
+.nav {
+  width: 80%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links a {
+  margin-right: 30px;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+}
+.auth_links {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.auth_links a {
+  transition: color 0.3s;
+  margin: 0 20px;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+}
+.nav-links a,
+.auth_links a {
+  color: #2f2f2f;
+}
+.nav-links a:hover,
+.auth_links a:hover {
+  color: #e92e4a;
+}
+.is-active {
+  color: #e92e4a !important;
+}
+.user_avatar {
+  width: 30px;
+  height: 30px;
+}
+.fa-shopping-cart {
+  font-size: 25px;
+}
