@@ -9,7 +9,7 @@ A community website built using the MERN (MongoDB, Express, React, Node.js) stac
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- 
+
 ## Technologies Used
 
 - **Frontend**: React, Material UI
@@ -29,7 +29,7 @@ A community website built using the MERN (MongoDB, Express, React, Node.js) stac
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/community-website.git
+git clone git@github.com:realkabeerahmad/Mern-Community.git
 
 # Inside the client directory
 cd client
